@@ -1,38 +1,86 @@
-.App {
+.App-logo{
+  max-width: 100%;
+}
+
+.block1 {
   text-align: center;
+  padding: 1em;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.block2{
+  background: rgb(245, 248, 255);
+  border: 1px solid #e5eaf2;
+  text-align: center;
+  padding: 1em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.block3{
+  text-align: center;
+  padding: 1em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.blockFooter{
+  background: rgb(245, 248, 255);
+  border: 1px solid #e5eaf2;
+  text-align: center;
+  padding: 0.5em;
 }
 
-.App-link {
-  color: #61dafb;
+.blockFooter p{
+  font-weight: 400;
+  font-family: 'Caveat', cursive;
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.block-wrapper{
+  width: 100%;
+  max-width: 500px;
+  padding: 1%;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.css-1pe7n21-MuiStepConnector-root {
+  margin-left: 1em !important;
+}
+
+.css-117w1su-MuiStepIcon-text {
+  fill: transparent !important;
+}
+h2{
+  font-weight: 700 !important;
+  font-family: 'Caveat', cursive !important;
+  font-size: 3em !important;
+}
+
+.gameDescription{
+  font-weight: 400 !important;
+  font-family: 'Caveat', cursive !important;
+  font-size: 1.5em !important;
+}
+
+.MuiStepLabel-label{
+  font-family: 'Caveat', cursive !important;
+  font-size: 1.3rem !important;
+}
+
+.css-1sn4lm3-MuiTypography-root{
+  font-family: 'Caveat', cursive !important;
+  font-size: 1rem !important;
+}
+
+.css-ahj2mt-MuiTypography-root{
+  font-family: 'Caveat', cursive !important;
+  font-size: 1.3rem !important;
+}
+
+button{
+  font-family: 'Caveat', cursive !important;
 }

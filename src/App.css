@@ -47,11 +47,11 @@
     display: table;
 }
 
-.css-1pe7n21-MuiStepConnector-root {
+.css-1pe7n21-MuiStepConnector-root, .MuiStepConnector-root.MuiStepConnector-vertical.css-52tf1x {
   margin-left: 1em !important;
 }
 
-.css-117w1su-MuiStepIcon-text {
+.MuiStepIcon-text {
   fill: transparent !important;
 }
 h2{
@@ -71,12 +71,12 @@ h2{
   font-size: 1.3rem !important;
 }
 
-.css-1sn4lm3-MuiTypography-root{
+.MuiTypography-root.MuiTypography-caption{
   font-family: 'Caveat', cursive !important;
   font-size: 1rem !important;
 }
 
-.css-ahj2mt-MuiTypography-root{
+.MuiCollapse-wrapperInner p.MuiTypography-root{
   font-family: 'Caveat', cursive !important;
   font-size: 1.3rem !important;
 }

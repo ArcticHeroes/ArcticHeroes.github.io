@@ -2,10 +2,8 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Stepper from '@mui/material/Stepper';
 import Step from '@mui/material/Step';
-import StepLabel from '@mui/material/StepLabel';
 import StepContent from '@mui/material/StepContent';
 import Button from '@mui/material/Button';
-import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import StepButton from '@mui/material/StepButton';
 
@@ -39,7 +37,15 @@ export default function CustomStepper({ steps }) {
                     width: '1.5em',
                     height: '1.5em'
                   },
+                  '& .MuiStepLabel-root .css-4ff9q7': {
+                    color: step.color, // circle color (ACTIVE)
+                    width: '1.5em',
+                    height: '1.5em'
+                  },
                   '& .css-14yr603-MuiStepContent-root': {
+                    marginLeft: '1em'
+                  },
+                  '& .MuiStepContent-root.css-d0mviz': {
                     marginLeft: '1em'
                   },
                 }}

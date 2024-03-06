@@ -67,7 +67,7 @@ export default function CustomStepper({ steps }) {
               {step.label}
             </StepButton>
             <StepContent>
-              <Typography>{step.description}</Typography>
+              <Typography className='stepDescription'>{step.description}</Typography>
               <Box sx={{ mb: 2 }}>
                 <div>
                   <Button

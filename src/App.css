@@ -84,3 +84,7 @@ h2{
 button{
   font-family: 'Caveat', cursive !important;
 }
+
+.stepDescription{
+  white-space: pre-line;
+}
